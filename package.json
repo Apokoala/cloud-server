@@ -1,0 +1,11 @@
+{
+    "name": "simple-api",
+    "version": "1.0",
+    "dependecies": {
+        "express": "^4.17.1"
+    },
+    "engines": {
+         "node" : ">=10 <17" 
+    }
+
+}
