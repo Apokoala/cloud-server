@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
 
-app.get('/api/sayhello', (req, res) =>{
-    res.json({message: 'Whattup'});
+app.get('/', (req, res) =>{
+    res.json('Whattup');
 });
 
 //i will not be setting env on amazon but let it go to 3000
